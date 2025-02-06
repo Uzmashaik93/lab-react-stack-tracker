@@ -1,5 +1,11 @@
+import "../components/Navbar.css";
+
 function Navbar() {
-  return <nav>Navbar</nav>;
+  return (
+    <nav>
+      <div className="navbar">StackTacker</div>
+    </nav>
+  );
 }
 
 export default Navbar;
